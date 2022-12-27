@@ -1,0 +1,30 @@
+.iconBtn {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: .4s;
+}
+
+.iconBtn:hover{
+    background-color: #000;
+}
+
+.socialIcon{
+   
+    color: #000000 !important;
+   font-size: 1.3rem;
+   transition: all ease-in-out .4s;
+  
+   
+}
+
+.iconBtn:hover .socialIcon{
+    color: #fff !important;
+}
+
+.footer a{
+    color: #fff;
+}

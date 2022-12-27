@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E7EBF0;
+}
+
+a{
+  text-decoration:  none !important;
+  
+}
+
+.carosel-height{
+  height: 100vh
+}
+
+.spin-height{
+  height: 50vh;
+}
+
+.carousel-caption {
+  position: absolute;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: left;
+  
+}
+
+.carousel-inner{
+ height: 500px;
+}
+.carousel-item {
+ position: relative !important;
+}
+
+.carosel-item .crimg::before{
+content: '';
+  position: absolute !important;
+  top:0;
+  left:0;
+  width:100%;
+  background: red;
+ 
+}
