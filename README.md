@@ -4,7 +4,7 @@
 # site name : Quick Visa Consultancy
 
 
-## live site : https://service-review-90ef9.web.app/
+## live site :https://quick-visa.web.app/
 
 #### details : its an Agency type Website 
 
