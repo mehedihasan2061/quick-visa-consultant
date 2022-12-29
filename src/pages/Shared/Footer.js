@@ -7,8 +7,8 @@ import './../../Assets/styles/footer.css'
 
 const Footer = () => {
     return (
-        <CDBFooter className="shadow bg-dark footer">
-          
+      <CDBFooter className="shadow bg-dark footer">
+         
         <CDBBox display="flex" flex="column" className="mx-auto py-5 text-white" style={{ width: '90%' }}>
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
