@@ -42,7 +42,7 @@ const Register = () => {
         email: user.email
     }
 
-    // jwt code
+    // jwt code..
 
     fetch('https://service-review-server-woad.vercel.app/jwt', {
     method: 'POST',
