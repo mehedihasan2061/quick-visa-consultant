@@ -10,7 +10,6 @@ const Blogs = () => {
          
             <h1 className="text-center my-5">Some Question</h1>
 
-         
 
             {blogs.map((blog) => (
           <>
