@@ -10,7 +10,8 @@ const UpdateReview = () => {
     
     const { user } = useContext(AuthContext);
    
-    console.log(data)
+  console.log(data)
+  
     const handleComment = (e)=>{
         e.preventDefault();
         const commentSingle = e.target.comment.value;
