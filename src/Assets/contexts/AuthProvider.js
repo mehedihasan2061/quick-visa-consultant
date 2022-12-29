@@ -24,7 +24,7 @@ const loginWithEmail = (email,password)=>{
 return signInWithEmailAndPassword(auth,email,password)
 }
 
-// signin withpopup
+// signin withpopup...
 
 const socialSignin = (provider)=>{
     return signInWithPopup(auth,provider)
