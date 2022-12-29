@@ -6,9 +6,10 @@ import { useLoaderData } from "react-router-dom";
 const Blogs = () => {
     const blogs = useLoaderData();
     return (
-        <Container>
+      <Container>
+        
          
-            <h1 className="text-center my-5">Some Question</h1>
+        <h1 className="text-center my-5">Some Question</h1>
 
 
             {blogs.map((blog) => (
