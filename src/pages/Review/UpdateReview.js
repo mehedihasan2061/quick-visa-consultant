@@ -52,7 +52,7 @@ const UpdateReview = () => {
         <Container>
            <div  style={{ padding: 10 }} className="App">
 
-<h1> write a Review</h1>
+<h1> Write a Review</h1>
 
 <Paper className="my-5" style={{ padding: "20px 20px" }}>
  
