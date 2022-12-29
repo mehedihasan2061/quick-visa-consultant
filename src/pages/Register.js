@@ -32,13 +32,12 @@ const Register = () => {
     const email = form.email.value
     const password = form.password.value
    
-    
+
     createUserWithEmail(email,password)
     .then(result=>{
       
       const user = result.user
       
-  
       const currentUser = {
         email: user.email
     }
