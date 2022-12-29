@@ -7,6 +7,7 @@ import ServiceCard from '../Shared/ServiceCard';
 const ServicePage = () => {
     UseTitle('Services')
     const services = useLoaderData()
+    
    
     return (
         <Container>
