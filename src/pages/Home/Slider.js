@@ -20,7 +20,7 @@ const Slider = () => {
                 We Provide Clear Advice For Your Migration To Canada, Australia,
                 USA
               </h4>
-              <button className="btn btn-primary mt-3">get Started</button>
+              <button className="btn btn-primary mt-3">Get Started</button>
             </div>
           </div>
             </Col>
