@@ -34,7 +34,8 @@ const handleLogin = (e)=>{
 
     const currentUser = {
       email: user.email
-  }
+    }
+    
 
   fetch('https://service-review-server-woad.vercel.app/jwt', {
     method: 'POST',
